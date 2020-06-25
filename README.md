@@ -1,2 +1,2 @@
-# leanneapichay.com
- Personal Portfolio Website
+# Leanne Pichay
+ Personal Portfolio 
