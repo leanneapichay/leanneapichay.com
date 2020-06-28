@@ -1,2 +1,0 @@
-# Leanne Pichay
- Personal Portfolio 
