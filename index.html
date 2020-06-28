@@ -5,31 +5,78 @@
 	<link href="https://fonts.googleapis.com/css2?family=Barlow&display=swap" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@500&display=swap" rel="stylesheet">
 </head>
+<!--
+	COLORS:
+	Dark Blue: #25243A
+	Medium Blue: #444054
+	Pale Blue: #BEBBBB
+	Pale Pink: #FAC9B8
+	Medium Pink: #DB8A74
+-->
 <style type="text/css">
 	h1 {
-		font-size: 20vmin;
+		font-size: 8vmin;
 		font-family: 'Inconsolata', monospace;
 	}
+
+	h2 {
+		font-family: 'Barlow', sans-serif;
+		font-size: 2.5vmin;
+		font-weight: 1px;
+	}
 	
-	#page-heading {
-		background-color: #DB8A74;
+	#page-header {
+		background-color: #242C3A;
 		position: top;
-		padding: 15px;
+		padding: 20px 15px 5px 30px;
+		margin-top: -10px;
+		margin-left: -10px;
+		margin-right: -10px;
+		margin-bottom: 10px;
+
 	}
 
-	p{
-		font-family: 'Barlow', sans-serif;
-		font-size: 5vmin;
+	#heading {
+		margin-bottom: 0px;
+		color: #DB8A74;
 	}
+
+	#subheading {
+		margin-left: 30px;
+		margin-right: -10px;
+		margin-top: 3px;
+		padding-right: 50px;
+		padding: 7px;
+		color: #FAC9B8;
+	}
+
+	#navbar {
+		background-color: #DB8A74;
+		margin: -10px -10px 10px -10px;
+		padding: 4px;
+		padding-left: 40px;
+		
+	}
+
+	.nav_option {
+		font-family: 'Barlow', sans-serif;
+		background-color: black;
+		color: #FAC9B8;
+		padding: 3px;
+	}
+	
 </style>
 <body>
 	<main>
-	<header>
-	<h1 id="page-heading"> Leanne Pichay </h1>
-	</header>
-	
-	<p> Hi, my name is Leanne Pichay. I'm a junior at Columbia University majoring in Biomedical Engineering and minoring in Mechanical Engineering. I'm passionate about engineering design. </p>
-		
+		<header id="page-header">
+			<h1 id="heading"> Leanne Pichay </h1>
+			<h2 id="subheading"> Hi, my name is Leanne! I'm a junior at Columbia University majoring in Biomedical Engineering and minoring in Mechanical Engineering. I'm passionate about engineering design. </h2>
+		</header>
+		<nav id="navbar">
+			<button class="nav_option"> about me </button>
+			<button class="nav_option"> projects </button>
+			<button class="nav_option"> linkedin </button>
+		</nav>
 	</main>
 
 	<!-- Browser Sync -->
