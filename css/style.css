@@ -552,6 +552,8 @@ h1, h2, h3, h4 {
   position: absolute;
   top: 0;
   bottom: 0;
+  margin: 0px;
+  padding: 0px;
   overflow: hidden;
   width: 100vw;
   max-width: 100vw;
