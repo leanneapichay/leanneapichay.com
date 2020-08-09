@@ -548,26 +548,37 @@ h1, h2, h3, h4 {
   position: relative;
     max-width: none;}
 
-    .video-container {
+.video-container {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  max-width: none;
+  overflow: hidden;
+  width: 100vw;
+  z-index: -1;
+  padding: 0px;
+}
+  .video-container image {
+    min-width: 100%;
+    min-height: 100%;
+    max-width: none;
+    width: 100vw;;
+    height: 100vh;
+    position: absolute;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%); }
+
+    .header-img {
       position: absolute;
       top: 0;
       bottom: 0;
-      max-width: none;
+      width: 100vw;
+      height:100vh;
       overflow: hidden;
       z-index: -1;
       padding: 0px;
-  }
-      .video-container image {
-        min-width: 100%;
-        min-height: 100%;
-        max-width: none;
-        width: auto;
-        height: 100vh;
-        position: absolute;
-        -webkit-transform: translate(-50%, -50%);
-        -ms-transform: translate(-50%, -50%);
-        transform: translate(-50%, -50%); }
-
+    }
 
 .btn:after, .btn:before {
   display: none; }
