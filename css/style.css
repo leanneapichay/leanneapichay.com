@@ -865,6 +865,7 @@ h1, h2, h3, h4 {
       -webkit-transition: .3s all ease-in-out;
       -o-transition: .3s all ease-in-out;
       transition: .3s all ease-in-out; }
+    /*
     .item .item-wrap > span {
       position: absolute;
       top: 50%;
@@ -880,9 +881,11 @@ h1, h2, h3, h4 {
       -webkit-transition: .3s all ease;
       -o-transition: .3s all ease;
       transition: .3s all ease; }
+      */
     .item .item-wrap:hover:after {
       opacity: 1;
       visibility: visible; }
+/*
     .item .item-wrap:hover span {
       margin-top: 0px;
       opacity: 1;
@@ -890,6 +893,7 @@ h1, h2, h3, h4 {
       -webkit-transform: translate(-50%, -50%) scale(1);
       -ms-transform: translate(-50%, -50%) scale(1);
       transform: translate(-50%, -50%) scale(1); }
+      */
   .item:hover a img {
     -webkit-transform: scale(1.05);
     -ms-transform: scale(1.05);
@@ -897,6 +901,39 @@ h1, h2, h3, h4 {
     -webkit-transition: .3s all ease-in-out;
     -o-transition: .3s all ease-in-out;
     transition: .3s all ease-in-out; }
+
+.item .item-wrap > .work-info {
+  position: absolute;
+  top: 50%;
+  width: 100%;
+  text-align: center;
+  z-index: 3;
+  transform: translateY(-50%);
+  color: white;
+  opacity: 0;
+  visibility: hidden;
+  margin-top: 20px;
+  transition: .3s all ease;
+}
+
+.item .item-wrap > .work-info h3 {
+  font-size: 20px;
+  margin-bottom: 0;
+  color:white;
+}
+
+.item .item-wrap > .work-info span {
+  font-size: 14px;
+  text-transform: uppercase;
+  letter-spacing: .2rem;
+  color: white;
+}
+
+.item .item-wrap:hover .work-info {
+  margin-top: 0px;
+  opacity: 1;
+  visibility: visible;
+}
 
 .site-menu-toggle:hover {
   text-decoration: none; }
