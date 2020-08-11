@@ -201,7 +201,7 @@
         -o-transition: .3s all ease;
         transition: .3s all ease; }
         .site-mobile-menu .site-mobile-menu-header .site-mobile-menu-close span:hover {
-          color: #dee2e6; }
+          color: #d25a25; }
     .site-mobile-menu .site-mobile-menu-header .site-mobile-menu-logo {
       float: left;
       margin-top: 10px;
@@ -431,7 +431,7 @@ h1, h2, h3, h4 {
         font-size: 2.5rem; } }
   .home-section p {
     font-size: 1.2rem;
-    color: rgba(255, 255, 255, 0.6); }
+    color: rgba(255, 255, 255, 0.6); } /*color of description*/
   .home-section a {
     font-size: 1.2rem;
     text-transform: none; }
@@ -943,14 +943,14 @@ h1, h2, h3, h4 {
 .site-footer {
   padding: 7rem 0;
   position: relative;
-  background: #ffb516;
+  background: #f1ac33;
   margin-top: 10rem; }
   @media (max-width: 991.98px) {
     .site-footer {
       padding: 2rem 0; } }
   .site-footer.slanted-footer:before {
     content: "";
-    background: #ffb516;
+    background: #f1ac33;
     height: 200px;
     -webkit-transform: skewY(-5deg);
     -ms-transform: skewY(-5deg);
@@ -965,13 +965,13 @@ h1, h2, h3, h4 {
     margin-bottom: 1.5rem;
     color: #fff; }
   .site-footer a {
-    color: #007bff; }
+    color: #307df6; }
     .site-footer a:hover {
       color: #fff; }
   .site-footer ul li {
     margin-bottom: .5rem; }
     .site-footer ul li a {
-      color: #007bff; }
+      color: #307df6; }
       .site-footer ul li a:hover {
         color: #fff; }
   .site-footer .scroll-top {
@@ -1006,7 +1006,7 @@ h1, h2, h3, h4 {
   width: 40px;
   height: 40px;
   position: relative;
-  background: #007bff;
+  background: #d25a25;
   border-radius: 50%;
   text-decoration: none !important; }
   .footer-social a > span, .social a > span {
@@ -1020,10 +1020,10 @@ h1, h2, h3, h4 {
   .footer-social a:hover, .social a:hover {
     background: #fff; }
     .footer-social a:hover span, .social a:hover span {
-      color: #007bff; }
+      color: #d25a25; }
 
 .social a:hover {
-  background: #343a40; }
+  background: #d25a25; }
   .social a:hover span {
     color: #fff; }
 
@@ -1202,7 +1202,7 @@ h1, h2, h3, h4 {
       position: absolute;
       right: 0;
       top: 0;
-      color: #ccc; }
+      color: #d25a25; }
   .categories li.active a, .sidelink li.active a {
     color: #000;
     font-style: italic; }
